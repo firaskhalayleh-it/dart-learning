@@ -1,0 +1,46 @@
+name: dart_learning
+description: A structured learning path from Dart fundamentals to Flutter readiness
+version: 1.0.0
+homepage: https://github.com/firaskhalayleh-it/dart-learning
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  # Core dependencies for the learning examples
+  json_annotation: ^4.8.1
+  
+dev_dependencies:
+  # Testing framework
+  test: ^1.21.0
+  
+  # Code generation for JSON serialization examples
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  
+  # Linting and analysis
+  lints: ^3.0.0
+  
+  # Additional development tools
+  mocktail: ^1.0.0
+
+# Configure the package to not be published to pub.dev
+publish_to: none
+
+# Additional metadata
+funding:
+  - https://github.com/sponsors/firaskhalayleh-it
+
+topics:
+  - dart
+  - learning
+  - tutorial
+  - flutter
+  - education
+
+# Repository information
+repository: https://github.com/firaskhalayleh-it/dart-learning
+issue_tracker: https://github.com/firaskhalayleh-it/dart-learning/issues
+
+# Documentation
+documentation: https://github.com/firaskhalayleh-it/dart-learning/blob/main/README.md
